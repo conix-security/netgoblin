@@ -84,9 +84,13 @@ class SizeFinder(object):
             if len(value.SizeLR) > lengthLR :
                 lengthLR = len(value.SizeLR)
                 longestLR = key
+            else:
+                longestLR = '0'
             if len(value.SizeRL) > lengthRL :
                 lengthRL = len(value.SizeRL)
                 longestRL = key
+            else:
+                longestRL = '0'
         results_LR = self.__delete_false_positives(message_relation_dict,message_relation_dict[longestLR].SizeLR,True)
         results_RL = self.__delete_false_positives(message_relation_dict,message_relation_dict[longestRL].SizeRL,False)
         #Delete all values that are under the base index
