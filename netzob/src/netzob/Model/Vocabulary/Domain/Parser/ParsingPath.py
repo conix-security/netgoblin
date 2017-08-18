@@ -108,15 +108,6 @@ class ParsingPath(GenericPath):
 
         fCall = [x for x in self._fieldsCallbacks]
 
-        result = ParsingPath(self.originalDataToParse, memory=self.memory.duplicate(), dataAssignedToField = dField, dataAssignedToVariable=dVariable, fieldsCallbacks=fCall, ok=self.ok())
-        
-        return result
-        
-        
-
-    def ok(self):
-        return self.__ok
-        
         result = ParsingPath(
             self.originalDataToParse,
             memory=self.memory.duplicate(),

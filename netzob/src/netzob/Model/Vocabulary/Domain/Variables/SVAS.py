@@ -60,7 +60,6 @@ class SVAS(object):
     EPHEMERAL = "Ephemeral SVAS"
     VOLATILE = "Volatile SVAS"
     PERSISTENT = "Persistent SVAS"    
-    PERSISTENT = "Persistent SVAS"
 
     def __init__(self):
         pass

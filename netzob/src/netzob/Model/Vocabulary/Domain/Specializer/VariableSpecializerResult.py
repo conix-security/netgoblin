@@ -62,8 +62,7 @@ class VariableSpecializerResult():
         return self.result
 
     def __str__(self):
-        return "VarSpecializerResult (result={0}, generatedContent={1})".format(self.result, self.generatedContent)
-    
+
         return "VarSpecializerResult (result={0}, generatedContent={1})".format(
             self.result, self.generatedContent)
 

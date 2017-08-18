@@ -141,11 +141,6 @@ class FieldOperations(object):
                 iField2 = iField
 
         if iField1 is None:
-            raise ValueError("Cannot retrieve position of field1 in its parent fields")
-        if iField2 is None:
-            raise ValueError("Cannot retrieve position of field2 in its parent fields")
-        if iField2 != iField1 + 1:
-            raise ValueError("Field1 must be directly on the left of field2 (iField1={0}, iField2={1})".format(iField1, iField2))
             raise ValueError(
                 "Cannot retrieve position of field1 in its parent fields")
         if iField2 is None:
