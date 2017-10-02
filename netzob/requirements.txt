@@ -6,5 +6,5 @@ bitarray==0.8.1
 numpy==1.13
 colorama==0.3.3
 bintrees==2.0.0
-minepy==1.5
+minepy==1.2.1
 arpreq==0.3.1
